@@ -1,0 +1,105 @@
+body {  /*css untuk tampilan body*/
+  background-color: #b3e5fc;
+  font-family: Georgia;
+  font-size: 18px;
+  margin: 0px;
+  color: white;
+}
+
+h2 { /*css untuk tampilan heading 2*/
+  background-color: #237ea7;
+  padding: 15px 35px;
+  margin: -10px -50px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+hr { /*css untuk tampilan garis */
+  margin: 10px -50px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.error { /*css untuk tampilan pesan error */
+  color: red;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: smaller;
+}
+
+.success { /*css untuk tampilan suces*/
+  color: red;
+}
+
+div.container{ /*css untuk cantainer*/ 
+
+position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  left: 0;
+  width: 100%;
+  /*border: 2px solid red;*/
+}
+
+div.main { /*css untuk main*/ 
+background-color: #237ea7;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 10px 50px 30px;
+}
+
+input[type=text],input[type=password], textarea { /*css untuk inputan*/ 
+  width: 97.5%;
+  height: 30px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  color: #4f4f4f;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+textarea { /*css untuk text area*/ 
+  resize: none;
+  height: 80px;
+}
+
+label { /*css untuk label*/ 
+  color: #464646;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.submit { /*css untuk button submit*/ 
+  margin-top: 4%;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  background: #237ea7;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.submit:hover { /*css untuk effect button*/ 
+  background: #3a76e4b8;
+}
+
+label { /*css untuk label */ 
+  color: white;
+font-family: -webkit-body;
+
+}
+#jarak,#jarak2{  /*css untuk jarak*/ 
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: x-large;
+}
